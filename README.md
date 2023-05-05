@@ -1,28 +1,32 @@
-#Rscript Documentation
-#Overview
-Rscript_test.R is a script that demonstrates basic data visualization using ggplot2 library in R programming language. The script creates two types of charts: a scatter plot and a bar chart.
+# HSSTest R Script Documentation
 
-#Requirements
-Before running the script, you should have the following installed:
+## Overview
+This R script generates a set of visualizations for the "mtcars" dataset using the ggplot2 library.
 
-R programming language (version 3.0.0 or higher)
-ggplot2 library (version 3.3.3 or higher)
-#Usage
+## Dependencies
+This script requires the following R packages to be installed:
+- ggplot2
+- dplyr
+
+## Usage
 To use this script, follow these steps:
+1. Ensure that the "mtcars" dataset is loaded in the current R environment.
+2. Open the "Rscript_test.R" file in RStudio or another R editor.
+3. Run the entire script or select specific sections to run.
 
-Open R console or RStudio.
-Load the required libraries by running library(ggplot2).
-Run the Rscript_test.R script using the source() function, or by opening the file in RStudio and clicking the "Run" button.
-Inputs
-The script takes no external inputs. Instead, it uses the mtcars dataset that comes with R.
+## Visualizations
+This script generates the following visualizations:
+- A scatterplot of mpg vs. hp with color and size scaled by cyl and wt, respectively.
+- A boxplot of mpg vs. cyl.
+- A histogram of mpg.
+- A scatterplot matrix of mpg, disp, and hp.
 
-#Outputs
-The script creates two charts and saves them as PNG files in the working directory:
+## Customization
+The visualizations in this script can be customized by modifying the arguments passed to the ggplot2 functions. See the ggplot2 documentation for more information.
 
-A scatter plot showing the relationship between a car's horsepower and its miles per gallon.
-A bar chart showing the average miles per gallon for each number of cylinders.
-Customization
-You can customize the charts by modifying the ggplot() function arguments in the code. For example, you can change the title, axis labels, colors, or themes of the charts. You can also use a different dataset by modifying the data() function argument.
+## Outputs
+This script does not output any files. The visualizations are displayed in the RStudio Plots pane or in the viewer window.
 
-#Troubleshooting
-If you encounter any errors while running the script, make sure that you have the required libraries installed and loaded. Check that your working directory is set correctly, and that the PNG files are being saved in the expected location. If you are still having issues, refer to the R documentation or seek help from the R community.
+## Credits
+This script was written by Ruoxi. Feel free to modify and redistribute as needed.
+
