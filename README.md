@@ -23,8 +23,8 @@ This script generates the following visualizations:
 The visualizations in this script can be customized by modifying the arguments passed to the ggplot2 functions. See the ggplot2 documentation for more information.
 
 ## Outputs
-This script does not output any files. The visualizations are displayed in the RStudio Plots pane or in the viewer window.
+This script generate 2 plots for each .csv file given.
 
 ## Credits
-This script was written by Ruoxi. Feel free to modify and redistribute as needed.
+This script was written by Ruoxi Yuan. Feel free to modify and redistribute as needed.
 
